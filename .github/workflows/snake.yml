@@ -10,19 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Updated to latest version
 
       - name: Generate Snake Animation
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3  # Removed /svg-only to use full functionality
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Push to GitHub
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          mkdir -p dist  # Ensure the directory exists
           git add dist/github-contribution-grid-snake.svg
-          git commit -m "Update Snake Game" || echo "No changes"
+          git commit -m "Update Snake Game" || echo "No changes to commit"
           git push
-
