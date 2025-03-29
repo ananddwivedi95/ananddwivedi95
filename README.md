@@ -93,5 +93,5 @@
 
 <h3 align="left">GitHub Snake Game:</h3>
 <p align="center">
-  <img src="https://github.com/ananddwivedi95/ananddwivedi95/blob/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
+  ![GitHub Snake Animation](https://raw.githubusercontent.com/ananddwivedi95/ananddwivedi95/output/github-contribution-grid-snake.svg)
 </p>
