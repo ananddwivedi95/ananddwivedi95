@@ -8,7 +8,7 @@
 </p>
 
 <p align="left"> 
-  <a href="https://twitter.com/ananddiv99" target="blank">
+  <a href="https://twitter.com/ananddiv95" target="blank">
     <img src="https://img.shields.io/twitter/follow/ananddiv99?logo=twitter&style=for-the-badge" alt="Twitter Follow" />
   </a> 
 </p>
